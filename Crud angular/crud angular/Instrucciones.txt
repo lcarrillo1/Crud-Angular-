@@ -1,0 +1,21 @@
+Tener Node.js, Mongodb y Postman instalados y corriendo.
+
+Habilitar la ejecucion de Scripts en windows desde la Powershell en modo administrador.
+
+Set-ExecutionPolicy Unrestricted 
+Get-ExecutionPolicy.
+
+En VScode abrir una terminal 
+
+cd backend
+npm install
+npm start
+
+Abrir una nueva terminal
+
+cd frontend
+npm install
+ng serve
+
+*Si existe algun error revisar los logs, a veces al aplicar npm install no se instala 
+Angular por lo que dentro del frontend se debe usar el comando npm install -g @angular/cli
